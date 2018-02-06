@@ -1,0 +1,63 @@
+[31.022071838] 2018-02-06 15:06:23,481 - INFO - launcher: Starting sanity checks
+[31.022071838] 2018-02-06 15:06:23,481 - INFO - launcher: Checking for python 3.5+
+[32.022476196] 2018-02-06 15:06:23,482 - INFO - launcher: Checking console encoding
+[32.022476196] 2018-02-06 15:06:23,482 - INFO - launcher: Setting console encoding to UTF-8
+[32.022476196] 2018-02-06 15:06:23,482 - INFO - launcher: Ensuring we're in the right folder
+[33.023595810] 2018-02-06 15:06:23,483 - INFO - launcher: Adding local bins/ folder to path
+[34.024000168] 2018-02-06 15:06:23,484 - INFO - launcher: Checks passed.
+[34.024000168] 2018-02-06 15:06:23,484 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.0157217979431152] 2018-02-06 15:06:24,466 - WARNING - musicbot.config | In config.py::MainThread(3820), line 256 in find_autoplaylist: No autoplaylist file found.
+[1.1418118476867676] 2018-02-06 15:06:24,592 - DEBUG - musicbot.bot | In bot.py::MainThread(3820), line 203 in _setup_logging: Set logging level to INFO
+[1.1418118476867676] 2018-02-06 15:06:24,592 - WARNING - musicbot.bot | In bot.py::MainThread(3820), line 73 in __init__: Autoplaylist is empty, disabling.
+[1.142812252] launcher-INFO: Connecting
+[4.2164609432220459] 2018-02-06 15:06:27,666 - DEBUG - musicbot.bot | In bot.py::MainThread(3820), line 993 in on_ready: Connection established, ready to go.
+[4.2174611091613770] 2018-02-06 15:06:27,667 - DEBUG - musicbot.bot | In bot.py::MainThread(3820), line 314 in _cache_app_info: Caching app info
+[4.3923685550689697] 2018-02-06 15:06:27,842 - DEBUG - musicbot.bot | In bot.py::MainThread(3820), line 810 in _scheck_ensure_env: Ensuring data folders exist
+[4.3953704833984375] 2018-02-06 15:06:27,845 - DEBUG - musicbot.bot | In bot.py::MainThread(3820), line 826 in _scheck_server_permissions: Checking server permissions
+[4.3953704833984375] 2018-02-06 15:06:27,845 - DEBUG - musicbot.bot | In bot.py::MainThread(3820), line 830 in _scheck_autoplaylist: Auditing autoplaylist
+[4.3963711261749268] 2018-02-06 15:06:27,846 - DEBUG - musicbot.bot | In bot.py::MainThread(3820), line 834 in _scheck_configs: Validating config
+[4.3963711261749268] 2018-02-06 15:06:27,846 - DEBUG - musicbot.config | In config.py::MainThread(3820), line 175 in async_validate: Validating options...
+[4.3963711261749268] 2018-02-06 15:06:27,846 - DEBUG - musicbot.bot | In bot.py::MainThread(3820), line 837 in _scheck_configs: Validating permissions config
+[4.3963711261749268] 2018-02-06 15:06:27,846 - DEBUG - musicbot.permissions | In permissions.py::MainThread(3820), line 59 in async_validate: Validating permissions...
+[4.3973717689514160] 2018-02-06 15:06:27,847 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 1004 in on_ready: Connected!  Musicbot v1.9.6
+
+[4.3983724117279053] 2018-02-06 15:06:27,848 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 1014 in on_ready: Bot:   374549551610068992/Kuro Tenshi#4795 [BOT]
+[4.3993732929229736] 2018-02-06 15:06:27,849 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 1022 in on_ready: Owner: 300664068786618368/－ｋｙｏｗ－#6795
+
+[4.4003739356994629] 2018-02-06 15:06:27,850 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 1025 in on_ready: Server List:
+[4.4003739356994629] 2018-02-06 15:06:27,850 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 1026 in <listcomp>:  - The Tamashii
+[4.4043767452239990] 2018-02-06 15:06:27,854 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 1070 in on_ready: Not bound to any text channels
+[4.4043767452239990] 2018-02-06 15:06:27,854 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 1096 in on_ready: Not autojoining any voice channels
+[4.4053766727447510] 2018-02-06 15:06:27,855 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 1100 in on_ready: Options:
+[4.4053766727447510] 2018-02-06 15:06:27,855 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 1102 in on_ready:   Command prefix: *
+[4.4073781967163086] 2018-02-06 15:06:27,857 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 1103 in on_ready:   Default volume: 10%
+[4.4073781967163086] 2018-02-06 15:06:27,857 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 1105 in on_ready:   Skip threshold: 4 votes or 50%
+[4.4083793163299561] 2018-02-06 15:06:27,858 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 1106 in on_ready:   Now Playing @mentions: Disabled
+[4.4093818664550781] 2018-02-06 15:06:27,859 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 1107 in on_ready:   Auto-Summon: Enabled
+[4.4103806018829346] 2018-02-06 15:06:27,860 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 1108 in on_ready:   Auto-Playlist: Disabled
+[4.4113814830780029] 2018-02-06 15:06:27,861 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 1109 in on_ready:   Auto-Pause: Enabled
+[4.4123818874359131] 2018-02-06 15:06:27,862 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 1110 in on_ready:   Delete Messages: Enabled
+[4.4133827686309814] 2018-02-06 15:06:27,863 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 1112 in on_ready:     Delete Invoking: Disabled
+[4.4133827686309814] 2018-02-06 15:06:27,863 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 1113 in on_ready:   Debug Mode: Disabled
+[4.4143831729888916] 2018-02-06 15:06:27,864 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 1114 in on_ready:   Downloaded songs will be saved
+[4.4153840541839600] 2018-02-06 15:06:27,865 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 242 in _join_startup_channels: Found resumable voice channel The Tamashii/Joel
+[4.4163846969604492] 2018-02-06 15:06:27,866 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 248 in _join_startup_channels: Found owner in "Joel"
+[4.4173853397369385] 2018-02-06 15:06:27,867 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 257 in _join_startup_channels: Attempting to join The Tamashii/Joel
+[4.4183864593505859] 2018-02-06 15:06:27,868 - DEBUG - musicbot.bot | In bot.py::MainThread(3820), line 427 in get_voice_client: Connection attempt 1 to Joel
+[4.4183864593505859] 2018-02-06 15:06:27,868 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(3820), line 366 in join_voice_channel: (join_voice_channel) creating futures
+[4.4183864593505859] 2018-02-06 15:06:27,868 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(3820), line 372 in join_voice_channel: (join_voice_channel) setting voice state
+[4.4193871021270752] 2018-02-06 15:06:27,869 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(3820), line 375 in join_voice_channel: (join_voice_channel) waiting for session id
+[4.5772690773010254] 2018-02-06 15:06:28,027 - DEBUG - musicbot.bot | In bot.py::MainThread(3820), line 2516 in on_voice_state_update: Resumed voice connection to The Tamashii/Joel
+[4.5772690773010254] 2018-02-06 15:06:28,027 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(3820), line 2528 in on_voice_state_update: Voice state update for 374549551610068992/Kuro Tenshi#4795 on The Tamashii/Joel -> [RESUME, CONNECT]
+[4.5772690773010254] 2018-02-06 15:06:28,027 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(3820), line 379 in join_voice_channel: (join_voice_channel) waiting for voice data
+[4.6063110828399658] 2018-02-06 15:06:28,056 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(3820), line 393 in join_voice_channel: (join_voice_channel) connecting...
+[5.7492897510528564] 2018-02-06 15:06:29,199 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(3820), line 405 in join_voice_channel: (join_voice_channel) connection successful
+[5.7492897510528564] 2018-02-06 15:06:29,199 - DEBUG - musicbot.bot | In bot.py::MainThread(3820), line 453 in get_voice_client: Connected in 1.3s
+[5.7492897510528564] 2018-02-06 15:06:29,199 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 454 in get_voice_client: Connected to The Tamashii/Joel
+[5.7502901554107666] 2018-02-06 15:06:29,200 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 273 in _join_startup_channels: Joined The Tamashii/Joel
+[5.7512986660003662] 2018-02-06 15:06:29,201 - VOICEDEBUG - musicbot.player | In player.py::MainThread(3820), line 311 in websocket_check: Starting websocket check loop for The Tamashii
+[11.6704404354095459] 2018-02-06 15:06:35,120 - INFO - musicbot.bot | In bot.py::MainThread(3820), line 2359 in on_message: 300664068786618368/－ｋｙｏｗ－#6795: *help
+[22.1231234073638916] 2018-02-06 15:06:45,573 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(3820), line 2528 in on_voice_state_update: Voice state update for 374549551610068992/Kuro Tenshi#4795 on The Tamashii/Joel -> [DISCONNECT]

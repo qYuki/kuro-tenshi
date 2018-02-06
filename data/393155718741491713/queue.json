@@ -1,0 +1,1 @@
+{"__class__": "MusicPlayer", "__module__": "musicbot.player", "data": {"current_entry": {"entry": null, "progress": null, "progress_frames": null}, "entries": {"__class__": "Playlist", "__module__": "musicbot.playlist", "data": {"entries": []}}}}
